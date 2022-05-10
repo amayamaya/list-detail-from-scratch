@@ -1,1 +1,7 @@
-/* add home page styles here */
+img {
+    max-width: 60%;
+    min-width: 50%;
+    display: flex;
+    height: auto;
+    border-radius: 30px;
+}
