@@ -1,8 +1,9 @@
-// import functions and grab DOM elements
+import { gems } from './data.js';
+import { renderListItem } from './render-utils.js';
 
-// let state
+const main = document.querySelector('main');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let gem of gems) {
+    const gemDiv = renderListItem(gem);
+    main.append(gemDiv);
+}
