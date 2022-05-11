@@ -6,7 +6,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 ## Making a plan
 
-1) **Make a drawing of your app. Simple "wireframes"** 
+1) **Make a drawing of your app. Simple "wire frames"** 
 1) **Look at the drawing and name the HTML elements you'll need to realize your vision**
 <h1> title of page
 <h2> to name gem
@@ -29,7 +29,7 @@ console log when you start naming things(params)
 console log to be sure clicks are grabbing all the requested data
 1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 - get data model together 
-- functions first - findbyid renderGems 
+- functions first - findById renderGems 
 
 
 
@@ -37,7 +37,7 @@ Additional considerations:
 - Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated? 
     **looks like all the magic happens in JS**
 - Consider your data model. 
-  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need? 
+  - What kinds of objects (i.e., Dogs, Friends, Todo's, etc) will you need? 
       **gems exclusively**
   - What are the key/value pairs? 
       **name: , metaphysical-properties:, hardness:,  (maybe more?)**
@@ -47,5 +47,19 @@ Additional considerations:
       **unsure tomorrow's another day**
 - Is there some state we need to initialize?
       **none**
-- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
     **nothing else**
+
+
+
+## RUBRIC ##
+** Deploy Requirements **	 
+X Main branch deployed to Netlify	1
+X Open PR from dev branch with Netlify deploy preview	1
+
+** Code Requirements **	 
+X Home page shows list of items with links to detail page	4
+TDD Render Function for home page items	4
+X Detail page uses URLSearch params	4
+X Detail page uses findById function	4
+X CSS Styling	2
